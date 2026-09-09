@@ -12,7 +12,6 @@
 
 <br/>
 
-[**Explore Live Web Dashboard**](https://support-agent-benchmark.onrender.com/) • [**Read Full 6-Page Report (`REPORT.md`)**](REPORT.md) • [**Notion Submission Form**](https://intelligent-bar-256.notion.site/39492cbf0da2800682cfc78a600a745f)
 
 </div>
 
