@@ -4,8 +4,6 @@
 
 ### *An Autonomous, Safety-Guardrailed, Grounded AI Support System for Twitter Customer Service*
 
-**Hiver SDE Intern Take-Home Assignment Case Study**
-
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Render_Deployment-0071e3?style=for-the-badge&logo=render&logoColor=white)](https://support-agent-benchmark.onrender.com/)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Tests Passing](https://img.shields.io/badge/Pytest-12%2F12%20Passed-10b981?style=for-the-badge&logo=pytest&logoColor=white)](https://docs.pytest.org/)
@@ -300,9 +298,4 @@ For the complete technical discussion, please see **[REPORT.md](REPORT.md)**, wh
 
 ---
 
-<div align="center">
 
-**Built for the Hiver SDE Intern Take-Home Assessment • September 2026**  
-Live Application: [https://support-agent-benchmark.onrender.com/](https://support-agent-benchmark.onrender.com/)
-
-</div>
