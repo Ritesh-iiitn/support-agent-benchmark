@@ -163,11 +163,3 @@ Please see [REPORT.md](REPORT.md) for the complete, publication-grade write-up c
 - **Section 9:** Decision Log (15 Non-Obvious Decisions & Engineering Rationales).
 
 ---
-
-## 📝 Submission Checklist
-- [x] Runnable pipeline with <15 minute reproduction instructions.
-- [x] Golden evaluation set (200 curated items with slices and difficulty tiers).
-- [x] Evaluation harness (Automated metrics + LLM-as-a-judge rubric + Human agreement evidence).
-- [x] Comprehensive Report ([REPORT.md](REPORT.md)) covering all mandatory sections.
-- [x] 15 Non-obvious Decision Log.
-- [x] Submitted via the official Notion submission form.
