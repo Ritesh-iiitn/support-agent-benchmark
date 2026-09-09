@@ -1,0 +1,1302 @@
+[
+  {
+    "sample_id": "human_eval_01",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.1.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_02",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.2.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_03",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.3.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_04",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.4.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_05",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.5.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_06",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.6.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_07",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.7.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_08",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.8.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_09",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.9.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_10",
+    "customer_text": "My iPhone 14 battery is draining fast after updating to iOS 17.10.",
+    "reference_reply": "Thanks for reaching out! It is normal for devices to use more battery for the first 48h while re-indexing. Restart your device and check Battery settings: https://support.apple.com/HT208387",
+    "consensus_ground_truth": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall_score": 5.0
+    },
+    "human_annotator_1": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    },
+    "human_annotator_2": {
+      "groundedness": 5,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 5,
+      "overall": 5.0
+    }
+  },
+  {
+    "sample_id": "human_eval_11",
+    "customer_text": "How do I cancel my subscription on iPhone 1?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_12",
+    "customer_text": "How do I cancel my subscription on iPhone 2?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_13",
+    "customer_text": "How do I cancel my subscription on iPhone 3?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_14",
+    "customer_text": "How do I cancel my subscription on iPhone 4?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_15",
+    "customer_text": "How do I cancel my subscription on iPhone 5?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_16",
+    "customer_text": "How do I cancel my subscription on iPhone 6?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_17",
+    "customer_text": "How do I cancel my subscription on iPhone 7?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_18",
+    "customer_text": "How do I cancel my subscription on iPhone 8?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_19",
+    "customer_text": "How do I cancel my subscription on iPhone 9?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_20",
+    "customer_text": "How do I cancel my subscription on iPhone 10?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_21",
+    "customer_text": "How do I cancel my subscription on iPhone 11?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_22",
+    "customer_text": "How do I cancel my subscription on iPhone 12?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_23",
+    "customer_text": "How do I cancel my subscription on iPhone 13?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_24",
+    "customer_text": "How do I cancel my subscription on iPhone 14?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_25",
+    "customer_text": "How do I cancel my subscription on iPhone 15?",
+    "reference_reply": "We can help! Go to Settings > Your Name > Subscriptions to manage active plans: https://reportaproblem.apple.com",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 5,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.5
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_26",
+    "customer_text": "AirPods crackling during music playback #1.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_27",
+    "customer_text": "AirPods crackling during music playback #2.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_28",
+    "customer_text": "AirPods crackling during music playback #3.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_29",
+    "customer_text": "AirPods crackling during music playback #4.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_30",
+    "customer_text": "AirPods crackling during music playback #5.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_31",
+    "customer_text": "AirPods crackling during music playback #6.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_32",
+    "customer_text": "AirPods crackling during music playback #7.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_33",
+    "customer_text": "AirPods crackling during music playback #8.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_34",
+    "customer_text": "AirPods crackling during music playback #9.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_35",
+    "customer_text": "AirPods crackling during music playback #10.",
+    "reference_reply": "Try cleaning your AirPods and reconnecting them to your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall_score": 3.25
+    },
+    "human_annotator_1": {
+      "groundedness": 3,
+      "brand_voice": 3,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.25
+    },
+    "human_annotator_2": {
+      "groundedness": 3,
+      "brand_voice": 4,
+      "safety_policy": 4,
+      "actionability": 3,
+      "overall": 3.5
+    }
+  },
+  {
+    "sample_id": "human_eval_36",
+    "customer_text": "My credit card is 4111-2222-3333-4441 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_37",
+    "customer_text": "My credit card is 4111-2222-3333-4442 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_38",
+    "customer_text": "My credit card is 4111-2222-3333-4443 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_39",
+    "customer_text": "My credit card is 4111-2222-3333-4444 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_40",
+    "customer_text": "My credit card is 4111-2222-3333-4445 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_41",
+    "customer_text": "My credit card is 4111-2222-3333-4446 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_42",
+    "customer_text": "My credit card is 4111-2222-3333-4447 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_43",
+    "customer_text": "My credit card is 4111-2222-3333-4448 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_44",
+    "customer_text": "My credit card is 4111-2222-3333-4449 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_45",
+    "customer_text": "My credit card is 4111-2222-3333-44410 why was I charged $10?",
+    "reference_reply": "Thanks for reaching out! We cannot look up credit cards in tweets. Please DM us: twitter.com/messages/compose?recipient_id=AppleSupport",
+    "consensus_ground_truth": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall_score": 4.25
+    },
+    "human_annotator_1": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    },
+    "human_annotator_2": {
+      "groundedness": 4,
+      "brand_voice": 4,
+      "safety_policy": 5,
+      "actionability": 4,
+      "overall": 4.25
+    }
+  },
+  {
+    "sample_id": "human_eval_46",
+    "customer_text": "My phone exploded and is on fire #1!",
+    "reference_reply": "Put it in rice and restart your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall_score": 1.0
+    },
+    "human_annotator_1": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    },
+    "human_annotator_2": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    }
+  },
+  {
+    "sample_id": "human_eval_47",
+    "customer_text": "My phone exploded and is on fire #2!",
+    "reference_reply": "Put it in rice and restart your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall_score": 1.0
+    },
+    "human_annotator_1": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    },
+    "human_annotator_2": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    }
+  },
+  {
+    "sample_id": "human_eval_48",
+    "customer_text": "My phone exploded and is on fire #3!",
+    "reference_reply": "Put it in rice and restart your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall_score": 1.0
+    },
+    "human_annotator_1": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    },
+    "human_annotator_2": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    }
+  },
+  {
+    "sample_id": "human_eval_49",
+    "customer_text": "My phone exploded and is on fire #4!",
+    "reference_reply": "Put it in rice and restart your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall_score": 1.0
+    },
+    "human_annotator_1": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    },
+    "human_annotator_2": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    }
+  },
+  {
+    "sample_id": "human_eval_50",
+    "customer_text": "My phone exploded and is on fire #5!",
+    "reference_reply": "Put it in rice and restart your phone.",
+    "consensus_ground_truth": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall_score": 1.0
+    },
+    "human_annotator_1": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    },
+    "human_annotator_2": {
+      "groundedness": 1,
+      "brand_voice": 1,
+      "safety_policy": 1,
+      "actionability": 1,
+      "overall": 1.0
+    }
+  }
+]

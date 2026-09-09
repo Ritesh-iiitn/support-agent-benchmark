@@ -1,0 +1,1440 @@
+{
+  "benchmark_summary": {
+    "Baseline 1 (Trivial)": {
+      "intent_metrics": {
+        "accuracy": 0.81,
+        "macro_precision": 0.8583,
+        "macro_recall": 0.8011,
+        "macro_f1": 0.7835,
+        "weighted_f1": 0.788,
+        "per_class": {
+          "account_billing_subscription": {
+            "precision": 1.0,
+            "recall": 0.871,
+            "f1": 0.931,
+            "support": 31
+          },
+          "app_functionality_crash": {
+            "precision": 0.9615,
+            "recall": 0.9615,
+            "f1": 0.9615,
+            "support": 26
+          },
+          "connectivity_audio_sync": {
+            "precision": 1.0,
+            "recall": 0.8276,
+            "f1": 0.9057,
+            "support": 29
+          },
+          "general_inquiry_policy": {
+            "precision": 0.9615,
+            "recall": 0.9615,
+            "f1": 0.9615,
+            "support": 26
+          },
+          "hardware_battery_issue": {
+            "precision": 0.8182,
+            "recall": 0.871,
+            "f1": 0.8438,
+            "support": 31
+          },
+          "os_update_glitch": {
+            "precision": 0.5167,
+            "recall": 1.0,
+            "f1": 0.6813,
+            "support": 31
+          },
+          "out_of_scope_chitchat": {
+            "precision": 0.75,
+            "recall": 0.1154,
+            "f1": 0.2,
+            "support": 26
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "account_billing_subscription",
+            "app_functionality_crash",
+            "connectivity_audio_sync",
+            "general_inquiry_policy",
+            "hardware_battery_issue",
+            "os_update_glitch",
+            "out_of_scope_chitchat"
+          ],
+          "matrix": [
+            [
+              27,
+              1,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              25,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              24,
+              0,
+              2,
+              2,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              25,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              27,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              31,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              22,
+              3
+            ]
+          ]
+        }
+      },
+      "escalation_metrics": {
+        "accuracy": 0.915,
+        "escalate_precision": 0.0,
+        "escalate_recall": 0.0,
+        "escalate_f1": 0.0,
+        "false_auto_replies (dangerous)": 17,
+        "false_escalations (inefficient)": 0,
+        "total_risk_weighted_cost": 170.0,
+        "cost_per_query": 0.85
+      },
+      "generation_metrics": {
+        "rouge_1": 0.2781,
+        "rouge_2": 0.1283,
+        "rouge_l": 0.2471,
+        "bleu_4": 0.0417,
+        "length_compliance_rate": 1.0,
+        "kb_url_grounding_accuracy": 0.0
+      },
+      "judge_metrics": {
+        "groundedness": 3.25,
+        "brand_voice": 4.0,
+        "safety_policy": 4.99,
+        "actionability": 3.0,
+        "overall_judge_score": 3.81,
+        "qa_gate_pass_rate": 0.995
+      },
+      "performance": {
+        "avg_latency_ms": 0.04,
+        "p95_latency_ms": 0.05,
+        "total_evaluation_time_sec": 0.01
+      },
+      "slice_breakdown": {
+        "Post_Update_Drain": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Bootloop_Failure": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Install_Error": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Keyboard_Lag": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Storage_Bloat": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Thermal_Indexing": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Error_Code_4013": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "WatchOS_Glitch": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Download_Stuck": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Health_Recalibration": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Safety_Critical": {
+          "count": 6,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Screen_Damage": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Degraded_Battery": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Liquid_Contact": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Legal_Safety_Risk": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 0.0
+        },
+        "Button_Defect": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "OLED_Defect": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Port_Issue": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Voltage_Shutdown": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Lens_Crack": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Account_Takeover": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Refund_Request": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Locked_Account": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "PII_Leakage": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 0.0
+        },
+        "iCloud_Upgrade": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Unrecognized_Charge": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Password_Exposed": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Cancel_Sub": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Recovery_Delay": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Apple_Pay_Decline": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "AirPod_Charging": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "CarPlay_Drop": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Hardware_Wireless_Fault": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 0.0
+        },
+        "Mic_Muffled": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "WiFi_Drop": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "AirDrop_Fail": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "ANC_Rattle": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Hotspot_Issue": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Camera_Black": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Third_Party_Crash": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Storage_Confusion": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Safari_Crash": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Photos_Sync_Stuck": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "App_Store_Blank": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Trade_In": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "AppleCare_Coverage": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Warranty_Check": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Store_Walkin": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Transfer_Policy": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Brand_Praise": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Competitor_Device": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Greeting": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Non_Apple_OS": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Speculation": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Policy": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Chitchat": {
+          "count": 21,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_OS": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Battery": {
+          "count": 16,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Billing": {
+          "count": 17,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_BT": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_App": {
+          "count": 20,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Security_Takeover": {
+          "count": 4,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        }
+      }
+    },
+    "Baseline 2 (Simple ML)": {
+      "intent_metrics": {
+        "accuracy": 0.99,
+        "macro_precision": 0.9898,
+        "macro_recall": 0.9905,
+        "macro_f1": 0.9899,
+        "weighted_f1": 0.9901,
+        "per_class": {
+          "account_billing_subscription": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 31
+          },
+          "app_functionality_crash": {
+            "precision": 0.9286,
+            "recall": 1.0,
+            "f1": 0.963,
+            "support": 26
+          },
+          "connectivity_audio_sync": {
+            "precision": 1.0,
+            "recall": 0.9655,
+            "f1": 0.9825,
+            "support": 29
+          },
+          "general_inquiry_policy": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 26
+          },
+          "hardware_battery_issue": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 31
+          },
+          "os_update_glitch": {
+            "precision": 1.0,
+            "recall": 0.9677,
+            "f1": 0.9836,
+            "support": 31
+          },
+          "out_of_scope_chitchat": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 26
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "account_billing_subscription",
+            "app_functionality_crash",
+            "connectivity_audio_sync",
+            "general_inquiry_policy",
+            "hardware_battery_issue",
+            "os_update_glitch",
+            "out_of_scope_chitchat"
+          ],
+          "matrix": [
+            [
+              31,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              26,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              28,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              26,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              31,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              30,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              26
+            ]
+          ]
+        }
+      },
+      "escalation_metrics": {
+        "accuracy": 0.945,
+        "escalate_precision": 1.0,
+        "escalate_recall": 0.3529,
+        "escalate_f1": 0.5217,
+        "false_auto_replies (dangerous)": 11,
+        "false_escalations (inefficient)": 0,
+        "total_risk_weighted_cost": 110.0,
+        "cost_per_query": 0.55
+      },
+      "generation_metrics": {
+        "rouge_1": 0.3339,
+        "rouge_2": 0.2061,
+        "rouge_l": 0.3178,
+        "bleu_4": 0.0648,
+        "length_compliance_rate": 1.0,
+        "kb_url_grounding_accuracy": 0.6322
+      },
+      "judge_metrics": {
+        "groundedness": 4.66,
+        "brand_voice": 3.86,
+        "safety_policy": 4.99,
+        "actionability": 4.43,
+        "overall_judge_score": 4.48,
+        "qa_gate_pass_rate": 0.995
+      },
+      "performance": {
+        "avg_latency_ms": 1.47,
+        "p95_latency_ms": 1.66,
+        "total_evaluation_time_sec": 0.3
+      },
+      "slice_breakdown": {
+        "Post_Update_Drain": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Bootloop_Failure": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Install_Error": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Keyboard_Lag": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Storage_Bloat": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Thermal_Indexing": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Error_Code_4013": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "WatchOS_Glitch": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Download_Stuck": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Health_Recalibration": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Safety_Critical": {
+          "count": 6,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Screen_Damage": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Degraded_Battery": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Liquid_Contact": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Legal_Safety_Risk": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Button_Defect": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "OLED_Defect": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Port_Issue": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Voltage_Shutdown": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Lens_Crack": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Account_Takeover": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Refund_Request": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Locked_Account": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "PII_Leakage": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "iCloud_Upgrade": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Unrecognized_Charge": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Password_Exposed": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Cancel_Sub": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Recovery_Delay": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Apple_Pay_Decline": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "AirPod_Charging": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "CarPlay_Drop": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Hardware_Wireless_Fault": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Mic_Muffled": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "WiFi_Drop": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "AirDrop_Fail": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "ANC_Rattle": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Hotspot_Issue": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Camera_Black": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Third_Party_Crash": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Storage_Confusion": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Safari_Crash": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Photos_Sync_Stuck": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "App_Store_Blank": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Trade_In": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "AppleCare_Coverage": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Warranty_Check": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Store_Walkin": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Transfer_Policy": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Brand_Praise": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Competitor_Device": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Greeting": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Non_Apple_OS": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Speculation": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Policy": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Chitchat": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_OS": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Battery": {
+          "count": 16,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Billing": {
+          "count": 17,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_BT": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_App": {
+          "count": 20,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Security_Takeover": {
+          "count": 4,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        }
+      }
+    },
+    "Proposed Agent (Production)": {
+      "intent_metrics": {
+        "accuracy": 0.99,
+        "macro_precision": 0.9908,
+        "macro_recall": 0.9899,
+        "macro_f1": 0.9902,
+        "weighted_f1": 0.99,
+        "per_class": {
+          "account_billing_subscription": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 31
+          },
+          "app_functionality_crash": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 26
+          },
+          "connectivity_audio_sync": {
+            "precision": 0.9667,
+            "recall": 1.0,
+            "f1": 0.9831,
+            "support": 29
+          },
+          "general_inquiry_policy": {
+            "precision": 1.0,
+            "recall": 0.9615,
+            "f1": 0.9804,
+            "support": 26
+          },
+          "hardware_battery_issue": {
+            "precision": 0.9688,
+            "recall": 1.0,
+            "f1": 0.9841,
+            "support": 31
+          },
+          "os_update_glitch": {
+            "precision": 1.0,
+            "recall": 0.9677,
+            "f1": 0.9836,
+            "support": 31
+          },
+          "out_of_scope_chitchat": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 26
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "account_billing_subscription",
+            "app_functionality_crash",
+            "connectivity_audio_sync",
+            "general_inquiry_policy",
+            "hardware_battery_issue",
+            "os_update_glitch",
+            "out_of_scope_chitchat"
+          ],
+          "matrix": [
+            [
+              31,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              26,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              29,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              25,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              31,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              30,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              26
+            ]
+          ]
+        }
+      },
+      "escalation_metrics": {
+        "accuracy": 0.87,
+        "escalate_precision": 0.3846,
+        "escalate_recall": 0.8824,
+        "escalate_f1": 0.5357,
+        "false_auto_replies (dangerous)": 2,
+        "false_escalations (inefficient)": 24,
+        "total_risk_weighted_cost": 68.0,
+        "cost_per_query": 0.34
+      },
+      "generation_metrics": {
+        "rouge_1": 0.3227,
+        "rouge_2": 0.2174,
+        "rouge_l": 0.3116,
+        "bleu_4": 0.0512,
+        "length_compliance_rate": 1.0,
+        "kb_url_grounding_accuracy": 0.7586
+      },
+      "judge_metrics": {
+        "groundedness": 4.79,
+        "brand_voice": 3.9,
+        "safety_policy": 5.0,
+        "actionability": 4.71,
+        "overall_judge_score": 4.6,
+        "qa_gate_pass_rate": 1.0
+      },
+      "performance": {
+        "avg_latency_ms": 1.92,
+        "p95_latency_ms": 2.1,
+        "total_evaluation_time_sec": 0.39
+      },
+      "slice_breakdown": {
+        "Post_Update_Drain": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Bootloop_Failure": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Install_Error": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Keyboard_Lag": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Storage_Bloat": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Thermal_Indexing": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 0.0
+        },
+        "Error_Code_4013": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "WatchOS_Glitch": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Download_Stuck": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Health_Recalibration": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Safety_Critical": {
+          "count": 6,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.8333
+        },
+        "Screen_Damage": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Degraded_Battery": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Liquid_Contact": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Legal_Safety_Risk": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Button_Defect": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "OLED_Defect": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Port_Issue": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Voltage_Shutdown": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Lens_Crack": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Account_Takeover": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Refund_Request": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Locked_Account": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "PII_Leakage": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "iCloud_Upgrade": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Unrecognized_Charge": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Password_Exposed": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Cancel_Sub": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Recovery_Delay": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Apple_Pay_Decline": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "AirPod_Charging": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "CarPlay_Drop": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Hardware_Wireless_Fault": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Mic_Muffled": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "WiFi_Drop": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "AirDrop_Fail": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "ANC_Rattle": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Hotspot_Issue": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Camera_Black": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Third_Party_Crash": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Storage_Confusion": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Safari_Crash": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Photos_Sync_Stuck": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "App_Store_Blank": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Trade_In": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "AppleCare_Coverage": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Warranty_Check": {
+          "count": 1,
+          "intent_acc": 0.0,
+          "escalation_acc": 1.0
+        },
+        "Store_Walkin": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Transfer_Policy": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Brand_Praise": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Competitor_Device": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Greeting": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Non_Apple_OS": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Speculation": {
+          "count": 1,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Policy": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Chitchat": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 0.0
+        },
+        "Synthetic_OS": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Battery": {
+          "count": 16,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_Billing": {
+          "count": 17,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_BT": {
+          "count": 21,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Synthetic_App": {
+          "count": 20,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        },
+        "Security_Takeover": {
+          "count": 4,
+          "intent_acc": 1.0,
+          "escalation_acc": 1.0
+        }
+      }
+    }
+  },
+  "human_judge_agreement": {
+    "total_samples_evaluated": 50,
+    "pearson_correlation_r": 0.9431,
+    "pearson_p_value": 1.3708719039732778e-24,
+    "spearman_rank_rho": 0.8531,
+    "cohen_kappa_quadratic": 0.7253,
+    "cohen_kappa_unweighted": 0.2754,
+    "inter_human_annotator_kappa": 0.8571,
+    "mean_absolute_error_mae": 0.35,
+    "root_mean_squared_error_rmse": 0.4472,
+    "exact_agreement_rate": 0.5,
+    "within_1_point_agreement_rate": 1.0,
+    "dimension_correlations": {
+      "groundedness": 0.8182,
+      "brand_voice": 0.9367,
+      "safety_policy": 0.9444,
+      "actionability": 0.8497
+    }
+  },
+  "timestamp": "2026-09-09 21:57:01"
+}
